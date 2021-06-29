@@ -206,7 +206,7 @@ a:focus {
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
     padding: 10px 10px 8px 10px;
-    color: #ffffff;
+    color: #343148;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -234,7 +234,7 @@ a:focus {
     
     .navbar.nav-sticky {
         padding: 10px 60px;
-        background: skyblue !important;
+        background: #F7CAC9; !important;
     }
     
     .navbar a.nav-link {
@@ -248,7 +248,7 @@ a:focus {
 @media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
-        background: #343148 !important;
+        background: #F7CAC9; !important;
     }
     
     .navbar .navbar-brand span {
@@ -273,7 +273,7 @@ a:focus {
     width: 100%;
     margin-bottom: 45px;
     padding-top: 90px; 
-    background: skyblue;
+    background: #F7CAC9;
     overflow: hidden;
 }
 
