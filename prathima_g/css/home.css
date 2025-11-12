@@ -1,0 +1,177 @@
+/*HOMEPAGE*/
+#landing { min-height:100vh; }
+.slide_item { height: 100vh; }
+
+#banner_home_new { background: url(../images/Home-New-Banner.jpg) no-repeat center bottom; background-size: cover; height: 100vh; }
+#banner_goodnessnew { background: url(../images/banner_goodness_new.jpg) no-repeat center; background-size: cover; height: 100vh; }
+#banner_goodness { background: url(../images/Banner_Goodness_01.jpg) no-repeat center; background-size: cover; height: 100vh; }
+#banner_goodness02 { background: url(../images/Banner_Goodness_02.jpg) no-repeat center; background-size: cover; height: 100vh; }
+#banner_goodness03 { background: url(../images/Banner_Goodness_03.jpg) no-repeat center; background-size: cover; height: 100vh; }
+#banner_goodness04 { background: url(../images/Banner_Goodness_04.jpg) no-repeat center; background-size: cover; height: 100vh; }
+
+#goodness_home {padding: 90px 0 60px 0;}
+/* #goodness_home h3 { font-size: 70px !important; font-weight: 300; line-height: 90px; } */
+#goodness_home h3 { margin-top: -50px; }
+/*#people_home {padding: 150px 0;}*/
+#brands_with_goondess_home .title_desc_left {/*padding-top: 135px;*/ padding-top: 70px;padding-bottom: 12px;}
+/*#sustainability_home {padding: 124px 0 146px;}*/
+/*#investors {padding: 115px 0 116px;}*/
+#leadership_blog_home {padding: 140px 0 80px;}
+.brand_logo { position: relative; }
+.brand_logo .pxy { width: 100% !important; z-index: 9999;}
+.seeall {display: inline-block; margin: 40px 0 70px 0; padding: 0; font-weight: 700; font-size: 13px; line-height: 18px; color: #606060; border-bottom: 2px solid #606060;}
+.seeall:hover { border-color: #4ce0e0;}
+
+.banner_caption {
+	position: absolute;
+	left: 0px;
+	top: 50%;
+	width: 100%;
+	transform: translateY(-50%);
+	/*margin-top: 100px;*/
+	margin-top: 50px;
+	z-index: 9;
+}
+.banner_caption h2 { font-size: 90px !important; font-weight: normal; font-weight: 700 !important; line-height: 93px !important; text-shadow: 0px 0px 60px rgba(0,0,0,0.7); padding-bottom: 30px !important; }
+.banner_caption .play_video_api, .banner_caption .play_video_popup { display: inline-block !important; }
+
+.brand_desc {
+	position: absolute;
+	left: 0%;
+	top: 25px;
+	/*width: 80%;*/
+	width: 100%;
+	height: 100%;
+	/*padding: 10% 0px 0px 10%;*/
+	padding: 0;
+	transition-duration: 0.5s;
+	z-index: 999999;
+	opacity: 0;
+	text-align: center;
+}
+.brand_desc h5 { color: #fff; font-weight: 700; font-weight: normal; font-size: 15px; padding-bottom: 20px; padding-bottom: 0;}
+.brand_desc p { color: #fff; font-weight: 300; }
+.brand_logo:after {
+	content: " ";
+	background: #000;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition-duration: 0.5s;
+	z-index: 99999;
+}
+.brand_logo:hover .brand_desc { top: 0px; opacity: 1; }
+.brand_logo:hover:after { opacity: 0.7; }
+
+.investors_desc { margin-top: 90px; }
+.investors_desc h4 {display: block; font-weight: 700; font-size: 40px; line-height: 48px;}
+.investors_desc h6 {display: block; font-weight: 400; font-weight: normal; font-size: 20px; line-height: 28px; margin-top: 5px;}
+/*.investors_desc .desc{margin: 0px 0 42px;}*/
+.monday8am {position: absolute; left: 30px;top: 24px; display: inline-block; width: 30%;}
+
+.investors_desc { margin-top: 90px; }
+
+#goodness_collage { margin: 100px 0px 60px 0px; }
+
+
+/*slider*/
+/*#landing .pyb {bottom: 90px;}*/
+#landing_slider .slide_item { /*padding: 203px 0px 155px 0px;*/ padding: 184px 0px 130px 0px; min-height: 740px; }
+#landing_slider .slide_item .rightsideimg { margin-top: 7px; }
+
+#brands_home_slider { margin-top: 60px; }
+
+.download_icon { position:absolute; right: 20px; top: 20px; width: 38px !important; height: 38px !important; border-radius: 50%;}
+.download_icon span {  display: block; width: 15px; height: 21px; background: url('../images/media/download_icon_blk.png') no-repeat left top; background-size: cover; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+
+.handwriting_font {
+    font-family: 'Seaside-Groove-Regular';
+    font-size: 51px;
+    line-height: inherit;
+    color: #212120;
+}
+.title_desc_left .section_title {
+    font-weight: 300 !important;
+    font-size: 30px !important;
+    line-height: 45px !important;
+    font-weight: normal !important;
+}
+
+.title_desc_left .section_title_01 {
+    font-weight: 400 !important;
+    font-size: 30px !important;
+    line-height: 45px !important;
+    font-weight: normal !important;
+    margin-bottom: 50px;
+}
+#our_business_slider .owl-dots{margin-top:50px;}
+#our_business_slider .owl-dot {
+	position: relative;
+    width: 55px;
+    height: 1px;
+    border-radius: 0px !important;
+    background: #A7A9AC !important;
+    opacity: 1 !important;}
+#our_business_slider .owl-dot.active {
+    background: #212120 !important;
+    opacity: 1;
+}
+.our_business .businesses_ours img{margin-bottom: 30px;}
+.our_business .businesses_ours p{font-weight: 700 !important; font-size:20px; line-height:28px; margin-bottom:30px !important;}
+.businesses_ours{box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1); padding-bottom:40px;}
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+	.our_business .col-xs-6{padding-right:7px; padding-left:7px;}
+	.businesses_ours .pdlft{padding-left:7px;}
+	.our_business .businesses_ours img{margin-bottom: 15px;}
+	.businesses_ours{padding-bottom:20px;}
+	.businesses_ours .learnmore{font-size:13px;}
+	.our_business .businesses_ours p{font-size:14px; line-height:20px;}
+	.title_desc_left .section_title {
+    font-size: 20px !important;
+    line-height: 35px !important;
+}
+.title_desc_left .section_title_01 {
+    font-size: 20px !important;
+    line-height: 35px !important;
+    margin-bottom: 35px;
+}
+	#goodness_home { padding-top: 40px; padding-bottom: 20px; }
+/* 	#goodness_home img { width: 65px; } */
+	#goodness_home img { width: 135px; margin-bottom: 20px;}
+/* 	#goodness_home h3 { font-size: 30px !important; line-height: 45px; } */
+
+	#landing.homenew { min-height: inherit; }
+	
+	#banner_home_new { background: #fff; height: auto; }
+	#banner_goodnessnew { background: url(../images/home/mobile/banner_goodness_new.jpg) no-repeat center; background-size: cover; height: 100vh; }
+	#banner_goodness { background: url(../images/home/mobile/Banner_Goodness_01.jpg) no-repeat center; background-size: cover; height: 100vh; }
+	#banner_goodness02 { background: url(../images/home/mobile/Banner_Goodness_02.jpg) no-repeat center; background-size: cover; height: 100vh; }
+	#banner_goodness03 { background: url(../images/home/mobile/Banner_Goodness_03.jpg) no-repeat center; background-size: cover; height: 100vh; }
+	#banner_goodness04 { background: url(../images/home/mobile/Banner_Goodness_04.jpg) no-repeat center; background-size: cover; height: 100vh; }
+
+	#goodness_collage { margin-top: 50px; margin-bottom: 30px; }
+	.investors_desc .desc{margin: 0px 0 35px;}
+	.investors_desc .desc.no_margin_mob{margin-bottom: 10px; }
+	.investors_desc { margin-top: 50px; }
+    .investors_desc h4 { font-size: 26px !important; line-height: 31px !important; }
+    .investors_desc h6 { font-size: 13px !important; line-height: 15px !important; }
+
+	.handwriting_font { font-size: 38px; }
+
+}
+/*Mobile*/
