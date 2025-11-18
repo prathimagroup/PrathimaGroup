@@ -7003,7 +7003,7 @@ header .navbar-brand .alt-logo, header .navbar-brand .mobile-logo {
 }
 header .navbar-brand img {
   /*max-height: 46px;*/
-  width: 130px;
+  width: 110px;
   max-height: 90px !important;
 }
 header .header-top-bar {
