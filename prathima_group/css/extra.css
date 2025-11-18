@@ -718,7 +718,7 @@ a.gs-title { line-height: 22px !important; }
     .right_bnrs .mo_tag_ttl_04 p{position:absolute; top:46%;left: 57%;transform: translate(-50%, -50%);}
     .mo_banners p{font-weight: 700; color:#fff;margin-left: 10px;font-size: 10px; line-height:12px;}
     .top_arrow{width: 35px; }
-    #landing_other_slider, #landing { margin-top: 60px; }
+    #landing_other_slider, #landing { margin-top: 45px; }
     #landing #landing_other_slider { margin-top: 0px; }
     .fwvh_new {height: calc(100vh - 60px); }
     #Mobile_Header { border-bottom: 1px solid #e7e7e7; }
