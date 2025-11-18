@@ -19682,9 +19682,13 @@
     padding-bottom: 0;
   }
   header .navbar-brand {
-    padding: 22px 0;
+    padding: 0px 0;
   }
-  header .navbar-brand .default-logo, header .navbar-brand .alt-logo {
+  header .navbar-brand img{
+    width: 110px;
+    max-height: 94px !important;
+  }
+  /*header .navbar-brand .default-logo, header .navbar-brand .alt-logo {
     visibility: hidden !important;
     opacity: 0 !important;
     width: 0 !important;
@@ -19695,7 +19699,7 @@
     width: auto !important;
     max-height: 50px !important;
   }
-  header .navbar-brand .mobile-logo:focus {
+*/  header .navbar-brand .mobile-logo:focus {
     outline: none;
   }
   header .navbar-brand:focus {
